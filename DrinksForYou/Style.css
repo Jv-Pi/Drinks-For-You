@@ -49,7 +49,7 @@ header .logo {
     position: relative;
     width: 60px;
     height: 60px;
-    background: url(/DrinksForYou/Menu-MenuSocial/menu.png);
+    background: url(Menu-MenuSocial/menu.png);
     background-repeat: no-repeat;
     background-size: 30px;
     background-position: center;
@@ -57,7 +57,7 @@ header .logo {
 }
 
 .toggle.active {
-    background: url(/PaginaFoda/Social/Menu/close.png);
+    background: url(Menu-MenuSocial/Menu/close.png);
     background-repeat: no-repeat;
     background-size: 25px;
     background-position: center;
