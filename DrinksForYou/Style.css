@@ -57,7 +57,7 @@ header .logo {
 }
 
 .toggle.active {
-    background: url(Menu-MenuSocial/Menu/close.png);
+    background: url(Menu-MenuSocial/close.png);
     background-repeat: no-repeat;
     background-size: 25px;
     background-position: center;
