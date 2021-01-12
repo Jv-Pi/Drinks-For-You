@@ -1,107 +1,143 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
-    <title>Drinks For Life</title>
+    <link rel="icon" type="imagem/png" href="https://img.icons8.com/color/96/000000/cocktail.png" />
+    <title>Drinks For You</title>
 </head>
 
 <body>
     <div class="menu">
         <ul>
+            <li class="active"><a href="#Drinkss">Best Drinks</a></li>
             <li>
-                <a href="#banner" onclick="toggleMenu();">Home</a>
+                <a href="#" class="feat-btn">Recipe
+                <span class="fas fa-caret-down first" onclick="down();"></span>
+              </a>
+                <ul class="feat-show">
+                    <li>
+                        <img src="/DrinksForYou/Drinks/drinks menu/vodka.png" width="30" height="30" />
+                        <a href="#">Recipe Vodka</a>
+                    </li>
+                    <li>
+                        <img src="/DrinksForYou/Drinks/drinks menu/cachaca.png" width="30" height="30" />
+                        <a href="#">Recipe Cachaça</a>
+                    </li>
+                    <li>
+                        <img src="/DrinksForYou/Drinks/drinks menu/alcohol.png" width="26" height="26" />
+                        <a href="#">Recipe Rum</a>
+                    </li>
+                    <li>
+                        <img src="/DrinksForYou/Drinks/drinks menu/tequila.png" width="30" height="30" />
+                        <a href="#">Recipe Tequila</a>
+                    </li>
+                    <li>
+                        <img src="/DrinksForYou/Drinks/drinks menu/whisky.png" width="30" height="30" />
+                        <a href="#">Recipe Whisky</a>
+                    </li>
+                    <li>
+                        <img src="/DrinksForYou/Drinks/drinks menu/cerveja.png" width="30" height="30" />
+                        <a href="# ">Recipe Cerveja</a>
+                    </li>
+                    <li>
+                        <img src="/DrinksForYou/Drinks/drinks menu/gin.png " width="30 " height="30" />
+                        <a href="# ">Recipe Gin</a>
+                    </li>
+                    <li>
+                        <img src="/DrinksForYou/Drinks/drinks menu/vinho.png " width="30 " height="30" />
+                        <a href="# ">Recipe Vinho</a>
+                    </li>
+                    <li>
+                        <img src="/DrinksForYou/Drinks/drinks menu/champagne.png " width="30 " height="30" />
+                        <a href="# ">Recipe Champagne</a>
+                    </li>
+                </ul>
             </li>
             <li>
-                <a href="#Drinkss" onclick="toggleMenu();">Best Drinks</a>
-            </li>
-            <li>
-                <a href="#Recipe" onclick="toggleMenu();">Alcohol Recipe</a>
+                <a href="# " class="serv-btn ">Services
+                <span class="fas fa-caret-down second " onclick="down2(); "></span>
+              </a>
+                <ul class="serv-show ">
+                    <li><a href="# ">App Design</a></li>
+                    <li><a href="# ">Web Design</a></li>
+                </ul>
             </li>
         </ul>
     </div>
     <section class="banner" id="banner">
         <header>
             <h2 class="logo">Drinks For You</h2>
-            <div class="toggle" onclick="toggleMenu();">
+            <div class="toggle " onclick="toggleMenu(); ">
             </div>
         </header>
-        <video src="/VideoFundo/drink.mp4" muted loop autoplay></video>
-        <div class="overplay"></div>
-        <div class="text">
+        <video src="/DrinksForYou/VideoFundo/drink.mp4 " muted loop autoplay></video>
+        <div class="overplay "></div>
+        <div class="text ">
             <h3>Drinks</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, necessitatibus et. Animi nihil atque nisi quae autem. Illo at, omnis officia veritatis quos itaque beatae eligendi ipsam! Natus, debitis itaque!</p>
-            <a href="#">Join us</a>
+            <a href="# ">Join us</a>
         </div>
         <ul class="sci">
             <li>
-                <a href="#">
-                    <img class="social" src="/Menu-MenuSocial/facebook.png" alt="Facebook" sizes="16x16">
+                <a href="# ">
+                    <img class="social " src="/DrinksForYou/Menu-MenuSocial/facebook.png " alt="Facebook " sizes="16x16 ">
                 </a>
             </li>
             <li>
-                <a href="#">
-                    <img class="social" src="/Menu-MenuSocial/twitter.png" alt="Twitter">
+                <a href="# ">
+                    <img class="social " src="/DrinksForYou/Menu-MenuSocial/twitter.png " alt="Twitter ">
                 </a>
             </li>
             <li>
-                <a href="#">
-                    <img class="social" src="/Menu-MenuSocial/instagram.png" alt="Instagram">
+                <a href="# ">
+                    <img class="social " src="/DrinksForYou/Menu-MenuSocial/instagram.png " alt="Instagram ">
                 </a>
             </li>
         </ul>
     </section>
-    <section class="banner" id="Drinkss">
-        <video src="/VideoFundo/smoke.mp4" muted loop autoplay></video>
-        <div class="overplay"></div>
-        <div class="text2">
+    <section id="Drinkss">
+        <video src="/DrinksForYou/VideoFundo/smoke.mp4 " muted loop autoplay></video>
+        <div class="overplay "></div>
+        <div class="text2 ">
             <h3>Best Drinks</h3>
-            <!--             <div class="Container-Cards-Scroll">
-                <div class="container testimonial-group space-top">
-                    <div class="row text-center">
-                        <div class="col-xs-4">CAIPIRINHA</div>
-                        <div class="col-xs-4">MARGARITA</div>
-                        <div class="col-xs-4">MOJITO</div>
-                    </div>
-                </div>
-            </div> -->
-            <div class="container">
-                <div class="card">
-                    <div class="imgBx">
-                        <a href="#">
-                            <img src="/Drinks/caipirinha.jpg" alt="caipirinha">
+            <div class="container ">
+                <div class="card ">
+                    <div class="imgBx ">
+                        <a href="# ">
+                            <img src="/DrinksForYou/Drinks/caipirinha.jpg " alt="caipirinha ">
                         </a>
                         <h3>Caipirinha</3>
                     </div>
-                    <div class="content">
+                    <div class="content ">
                         <p><b>Ingredientes:</b><br> 60 ml de cachaça<br> 1 limão<br> 2 colheres (chá) de açúcar (ou 3 cubos)<br>
                         </p>
                     </div>
                 </div>
-                <div class="card">
-                    <div class="imgBx">
-                        <a href="#">
-                            <img src="/Drinks/sexOn.jpg" alt="Sex On The Beach">
+                <div class="card ">
+                    <div class="imgBx ">
+                        <a href="# ">
+                            <img src="/DrinksForYou/Drinks/sexOn.jpg " alt="Sex On The Beach ">
                         </a>
                         <h3>Sex On The Beach</h3>
                     </div>
-                    <div class="content">
+                    <div class="content ">
                         <p><b>Ingredientes:</b> <br> gelo
                             <br> 2 doses de vodka<br> 1 dose de suco de pêssego<br> 2 doses de suco de laranja<br> groselha
                             <br>
                         </p>
                     </div>
                 </div>
-                <div class="card">
-                    <div class="imgBx">
-                        <a href="#">
-                            <img src="/Drinks/martini.jpeg" alt="Martini">
+                <div class="card ">
+                    <div class="imgBx ">
+                        <a href="# ">
+                            <img src="/DrinksForYou/Drinks/martini.jpeg " alt="Martini ">
                         </a>
                         <h3> Dry Martini</div>
-                    <div class="content">
+                    <div class="content ">
                         <p><b>Ingredientes:</b><br> 3 doses de gim (150 ml)<br> ½ dose de vermute seco (25 ml)<br> cubos de gelo<br> casquinha de limão siciliano para perfumar<br> 1 azeitona para decorar<br></p>
                     </div>
                 </div>
@@ -109,17 +145,199 @@
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde tempora neque praesentium labore ipsam iste, adipisci rerum eum. Quam nihil accusamus obcaecati, porro et dicta amet expedita mollitia eveniet esse!</p>
         </div>
     </section>
-    <section class="banner" id="Recipe">
-        <video src="/VideoFundo/video.mp4" muted loop autoplay></video>
-        <div class="overplay"></div>
-        <div class="text">
-            <h3>Drinks</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, necessitatibus et. Animi nihil atque nisi quae autem. Illo at, omnis officia veritatis quos itaque beatae eligendi ipsam! Natus, debitis itaque!</p>
-            <a href="#">Join us</a>
+    <!--     <section id="Recipe">
+        <video src="/DrinksForYou/VideoFundo/video.mp4 " muted loop autoplay></video>
+        <div class="overplay "></div>
+        <div class="text ">
+            <div class="container ">
+                <div class="card ">
+                    <div class="imgBx ">
+                        <a href="# ">
+                            <img src="/DrinksForYou/Drinks/caipirinha.jpg " alt="caipirinha ">
+                        </a>
+                        <h3>Caipirinha</3>
+                    </div>
+                    <div class="content ">
+                        <p><b>Ingredientes:</b><br> 60 ml de cachaça<br> 1 limão<br> 2 colheres (chá) de açúcar (ou 3 cubos)<br>
+                        </p>
+                    </div>
+                </div>
+                <div class="card ">
+                    <div class="imgBx ">
+                        <a href="# ">
+                            <img src="/DrinksForYou/Drinks/sexOn.jpg " alt="Sex On The Beach ">
+                        </a>
+                        <h3>Sex On The Beach</h3>
+                    </div>
+                    <div class="content ">
+                        <p><b>Ingredientes:</b> <br> gelo
+                            <br> 2 doses de vodka<br> 1 dose de suco de pêssego<br> 2 doses de suco de laranja<br> groselha
+                            <br>
+                        </p>
+                    </div>
+                </div>
+                <div class="card ">
+                    <div class="imgBx ">
+                        <a href="# ">
+                            <img src="/DrinksForYou/Drinks/martini.jpeg " alt="Martini ">
+                        </a>
+                        <h3> Dry Martini</div>
+                    <div class="content ">
+                        <p><b>Ingredientes:</b><br> 3 doses de gim (150 ml)<br> ½ dose de vermute seco (25 ml)<br> cubos de gelo<br> casquinha de limão siciliano para perfumar<br> 1 azeitona para decorar<br></p>
+                    </div>
+                </div>
+                <div class="card ">
+                    <div class="imgBx ">
+                        <a href="# ">
+                            <img src="/DrinksForYou/Drinks/martini.jpeg " alt="Martini ">
+                        </a>
+                        <h3> Dry Martini</div>
+                    <div class="content ">
+                        <p><b>Ingredientes:</b><br> 3 doses de gim (150 ml)<br> ½ dose de vermute seco (25 ml)<br> cubos de gelo<br> casquinha de limão siciliano para perfumar<br> 1 azeitona para decorar<br></p>
+                    </div>
+                </div>
+                <div class="card ">
+                    <div class="imgBx ">
+                        <a href="# ">
+                            <img src="/DrinksForYou/Drinks/martini.jpeg " alt="Martini ">
+                        </a>
+                        <h3> Dry Martini</div>
+                    <div class="content ">
+                        <p><b>Ingredientes:</b><br> 3 doses de gim (150 ml)<br> ½ dose de vermute seco (25 ml)<br> cubos de gelo<br> casquinha de limão siciliano para perfumar<br> 1 azeitona para decorar<br></p>
+                    </div>
+                </div>
+                <div class="card ">
+                    <div class="imgBx ">
+                        <a href="# ">
+                            <img src="/DrinksForYou/Drinks/martini.jpeg " alt="Martini ">
+                        </a>
+                        <h3> Dry Martini</div>
+                    <div class="content ">
+                        <p><b>Ingredientes:</b><br> 3 doses de gim (150 ml)<br> ½ dose de vermute seco (25 ml)<br> cubos de gelo<br> casquinha de limão siciliano para perfumar<br> 1 azeitona para decorar<br></p>
+                    </div>
+                </div>
+                <div class="card ">
+                    <div class="imgBx ">
+                        <a href="# ">
+                            <img src="/DrinksForYou/Drinks/martini.jpeg " alt="Martini ">
+                        </a>
+                        <h3> Dry Martini</div>
+                    <div class="content ">
+                        <p><b>Ingredientes:</b><br> 3 doses de gim (150 ml)<br> ½ dose de vermute seco (25 ml)<br> cubos de gelo<br> casquinha de limão siciliano para perfumar<br> 1 azeitona para decorar<br></p>
+                    </div>
+                </div>
+                <div class="card ">
+                    <div class="imgBx ">
+                        <a href="# ">
+                            <img src="/DrinksForYou/Drinks/martini.jpeg " alt="Martini ">
+                        </a>
+                        <h3> Dry Martini</div>
+                    <div class="content ">
+                        <p><b>Ingredientes:</b><br> 3 doses de gim (150 ml)<br> ½ dose de vermute seco (25 ml)<br> cubos de gelo<br> casquinha de limão siciliano para perfumar<br> 1 azeitona para decorar<br></p>
+                    </div>
+                </div>
+                <div class="card ">
+                    <div class="imgBx ">
+                        <a href="# ">
+                            <img src="/DrinksForYou/Drinks/martini.jpeg " alt="Martini ">
+                        </a>
+                        <h3> Dry Martini</div>
+                    <div class="content ">
+                        <p><b>Ingredientes:</b><br> 3 doses de gim (150 ml)<br> ½ dose de vermute seco (25 ml)<br> cubos de gelo<br> casquinha de limão siciliano para perfumar<br> 1 azeitona para decorar<br></p>
+                    </div>
+                </div>
+                <div class="card ">
+                    <div class="imgBx ">
+                        <a href="# ">
+                            <img src="/DrinksForYou/Drinks/martini.jpeg " alt="Martini ">
+                        </a>
+                        <h3> Dry Martini</div>
+                    <div class="content ">
+                        <p><b>Ingredientes:</b><br> 3 doses de gim (150 ml)<br> ½ dose de vermute seco (25 ml)<br> cubos de gelo<br> casquinha de limão siciliano para perfumar<br> 1 azeitona para decorar<br></p>
+                    </div>
+                </div>
+                <div class="card ">
+                    <div class="imgBx ">
+                        <a href="# ">
+                            <img src="/DrinksForYou/Drinks/martini.jpeg " alt="Martini ">
+                        </a>
+                        <h3> Dry Martini</div>
+                    <div class="content ">
+                        <p><b>Ingredientes:</b><br> 3 doses de gim (150 ml)<br> ½ dose de vermute seco (25 ml)<br> cubos de gelo<br> casquinha de limão siciliano para perfumar<br> 1 azeitona para decorar<br></p>
+                    </div>
+                </div>
+                <div class="card ">
+                    <div class="imgBx ">
+                        <a href="# ">
+                            <img src="/DrinksForYou/Drinks/martini.jpeg " alt="Martini ">
+                        </a>
+                        <h3> Dry Martini</div>
+                    <div class="content ">
+                        <p><b>Ingredientes:</b><br> 3 doses de gim (150 ml)<br> ½ dose de vermute seco (25 ml)<br> cubos de gelo<br> casquinha de limão siciliano para perfumar<br> 1 azeitona para decorar<br></p>
+                    </div>
+                </div>
+                <div class="card ">
+                    <div class="imgBx ">
+                        <a href="# ">
+                            <img src="/DrinksForYou/Drinks/martini.jpeg " alt="Martini ">
+                        </a>
+                        <h3> Dry Martini</div>
+                    <div class="content ">
+                        <p><b>Ingredientes:</b><br> 3 doses de gim (150 ml)<br> ½ dose de vermute seco (25 ml)<br> cubos de gelo<br> casquinha de limão siciliano para perfumar<br> 1 azeitona para decorar<br></p>
+                    </div>
+                </div>
+                <div class="card ">
+                    <div class="imgBx ">
+                        <a href="# ">
+                            <img src="/DrinksForYou/Drinks/martini.jpeg " alt="Martini ">
+                        </a>
+                        <h3> Dry Martini</div>
+                    <div class="content ">
+                        <p><b>Ingredientes:</b><br> 3 doses de gim (150 ml)<br> ½ dose de vermute seco (25 ml)<br> cubos de gelo<br> casquinha de limão siciliano para perfumar<br> 1 azeitona para decorar<br></p>
+                    </div>
+                </div>
+                <div class="card ">
+                    <div class="imgBx ">
+                        <a href="# ">
+                            <img src="/DrinksForYou/Drinks/martini.jpeg " alt="Martini ">
+                        </a>
+                        <h3> Dry Martini</div>
+                    <div class="content ">
+                        <p><b>Ingredientes:</b><br> 3 doses de gim (150 ml)<br> ½ dose de vermute seco (25 ml)<br> cubos de gelo<br> casquinha de limão siciliano para perfumar<br> 1 azeitona para decorar<br></p>
+                    </div>
+                </div>
+                <div class="card ">
+                    <div class="imgBx ">
+                        <a href="# ">
+                            <img src="/DrinksForYou/Drinks/martini.jpeg " alt="Martini ">
+                        </a>
+                        <h3> Dry Martini</div>
+                    <div class="content ">
+                        <p><b>Ingredientes:</b><br> 3 doses de gim (150 ml)<br> ½ dose de vermute seco (25 ml)<br> cubos de gelo<br> casquinha de limão siciliano para perfumar<br> 1 azeitona para decorar<br></p>
+                    </div>
+                </div>
+                <div class="card ">
+                    <div class="imgBx ">
+                        <a href="# ">
+                            <img src="/DrinksForYou/Drinks/martini.jpeg " alt="Martini ">
+                        </a>
+                        <h3> Dry Martini</div>
+                    <div class="content ">
+                        <p><b>Ingredientes:</b><br> 3 doses de gim (150 ml)<br> ½ dose de vermute seco (25 ml)<br> cubos de gelo<br> casquinha de limão siciliano para perfumar<br> 1 azeitona para decorar<br></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <section id="About">
+        <video src="/DrinksForYou/VideoFundo/about.mp4 " muted loop autoplay></video>
+        <div class="overplay "></div>
+        <div class="text2 ">
+            <h3>About</h3>
         </div>
     </section>
-    <button id="btntop" onclick="up();"><i class="fas fa-chevron-up"></i></button>
-    <script src="Script.js"></script>
+    <button id="btntop" onclick="up();"><i class="fas fa-angle-up"></i></button>
+    <script src="Script.js "></script>
 </body>
 
 </html>
