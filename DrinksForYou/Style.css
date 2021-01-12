@@ -242,9 +242,6 @@ ul li a span.rotate {
     transform: translateY(0) rotate(-90deg);
 }
 
-.social {
-    filter: invert(1);
-}
 
 @media(max-width: 991px) {
     section,
