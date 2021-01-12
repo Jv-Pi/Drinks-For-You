@@ -211,13 +211,35 @@ section video {
 .menu ul li {
     position: relative;
     list-style: none;
-    margin: 30px;
+    margin: 10px;
 }
 
 .menu ul li a {
     text-decoration: none;
-    font-size: 30px;
+    font-size: 25px;
     color: #000000;
+}
+
+ul li a:hover {
+    background: #ccccccbe;
+    border-radius: 8px;
+}
+
+ul ul {
+    position: static;
+    display: none;
+}
+
+ul .feat-show.show {
+    display: block;
+}
+
+ul .serv-show.show1 {
+    display: block;
+}
+
+ul li a span.rotate {
+    transform: translateY(0) rotate(-90deg);
 }
 
 .social {
@@ -241,8 +263,8 @@ section video {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    height: 50px;
-    width: 50px;
+    height: 40px;
+    width: 40px;
     color: #000000;
     background: #ffffff;
     border: none;
@@ -298,7 +320,7 @@ section video {
 }
 
 .container .card .imgBx {
-    font-size: 9px;
+    font-size: 8px;
 }
 
 .container .card .content {
