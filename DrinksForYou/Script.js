@@ -35,3 +35,7 @@ function down() {
     var animate = document.querySelector('.first');
     animate.classList.toggle('rotate');
 }
+function menuProfile() {
+    const Menu = document.querySelector('.menuprof');
+    Menu.classList.toggle('active');
+}
